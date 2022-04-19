@@ -44,13 +44,60 @@ public class Loops {
 //			}
 //		}
 		
-		//Problem 6
-		for(int i =1; i <=2; i++) {
-			System.out.println("Week " + i);
-			for(int j = 0; j<=5; j++) {
-				System.out.println("Day " + j);
-			}
-		}
+//		//Problem 6
+//		for(int i =1; i <=2; i++) {
+//			System.out.println("Week " + i);
+//			for(int j = 0; j<=5; j++) {
+//				System.out.println("Day " + j);
+//			}
+//		}
+		
+		//Problem 7
+//		Scanner sc = new Scanner(System.in);
+//        int range1, range2;
+//        System.out.println("Enter a range in numbers(num1-num2):");
+//        range1 = sc.nextInt();
+//        range2 = sc.nextInt();
+//        int num1 = 0;
+//        int num2 = 0;
+//        System.out.println(range1 + " to " + range2 + " palindrome numbers are");
+//        for (int i = range1; i <= range2; i++) {
+//            num1 = i;
+//            num2 = 0;
+//            while (num1 != 0) {
+//                int rem = num1 % 10;
+//                num1 /= 10;
+//                num2 = num2 * 10 + rem;
+//            }
+//
+//            if (i == num2)
+//                System.out.print(i + " ");
+//        }
+//        sc.close();
+		
+		//Problem 8
+//      int n = 50, firstTerm = 0, secondTerm = 1;
+//
+//      System.out.println("Fibonacci Series Upto " + n + ": ");
+//
+//      while (firstTerm <= n) {
+//          System.out.print(firstTerm + ", ");
+//
+//          int nextTerm = firstTerm + secondTerm;
+//          firstTerm = secondTerm;
+//          secondTerm = nextTerm;
+//
+//      }
+		
+		//Problem 9
+//		for(int i =1; i <=2; i++) {
+//			for(int j = 0; j<=5; j++) {
+//				System.out.println("Inner loop: i: " + i + ",j: " + j );
+//			}
+//		}
+		
+		
+		
 
 	}
 
